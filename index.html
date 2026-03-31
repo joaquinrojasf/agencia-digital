@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaStudio | Agencia Digital</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">Nova<span>Studio</span></div>
+        <ul class="menu">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container">
+        <h1>Impulsamos tu presencia digital</h1>
+        <p>
+          Somos una agencia digital enfocada en diseño web, desarrollo y marketing.
+          Creamos experiencias modernas, funcionales y orientadas a resultados.
+        </p>
+        <a href="#contacto" class="btn">Solicitar información</a>
+      </div>
+    </section>
+
+    <section id="servicios">
+      <div class="container">
+        <h2>Nuestros servicios</h2>
+        <div class="servicios-grid">
+          <article class="card">
+            <h3>Diseño Web</h3>
+            <p>Diseñamos sitios modernos, responsivos y alineados con la identidad visual de tu marca.</p>
+          </article>
+
+          <article class="card">
+            <h3>Desarrollo Frontend</h3>
+            <p>Construimos interfaces interactivas utilizando HTML, CSS y JavaScript con buenas prácticas.</p>
+          </article>
+
+          <article class="card">
+            <h3>Marketing Digital</h3>
+            <p>Potenciamos tu negocio con estrategias digitales orientadas al crecimiento y visibilidad.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosotros" class="nosotros">
+      <div class="container">
+        <h2>Sobre nosotros</h2>
+        <p>
+          En NovaStudio trabajamos como una agencia digital creativa que combina diseño,
+          tecnología y estrategia para ofrecer soluciones web profesionales a emprendedores y empresas.
+        </p>
+
+        <div class="contador-box">
+          <p>Proyectos simulados revisados:</p>
+          <div class="contador" id="contador">0</div>
+          <button class="btn" id="btnContador">Sumar proyecto</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="container">
+        <h2>Contáctanos</h2>
+        <form id="formularioContacto">
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre">
+          </div>
+
+          <div class="form-group">
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo" placeholder="Ingresa tu correo">
+          </div>
+
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+          </div>
+
+          <button type="submit" class="btn">Enviar</button>
+          <p class="mensaje" id="respuestaFormulario"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 NovaStudio - Agencia Digital. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
